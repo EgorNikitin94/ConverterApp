@@ -7,15 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		501270592556C580006F3E08 /* GroupSelectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 501270582556C580006F3E08 /* GroupSelectionView.swift */; };
+		5018909225499C4000BBD0EA /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5018909125499C4000BBD0EA /* SettingsViewController.swift */; };
 		5061233A2546D765007C4147 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 506123392546D765007C4147 /* AppDelegate.swift */; };
 		5061233C2546D765007C4147 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5061233B2546D765007C4147 /* SceneDelegate.swift */; };
 		5061233E2546D766007C4147 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5061233D2546D766007C4147 /* ViewController.swift */; };
 		506123412546D766007C4147 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5061233F2546D766007C4147 /* Main.storyboard */; };
 		506123432546D76D007C4147 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 506123422546D76D007C4147 /* Assets.xcassets */; };
 		506123462546D76D007C4147 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 506123442546D76D007C4147 /* LaunchScreen.storyboard */; };
+		5061234F2546D7D4007C4147 /* MainScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5061234E2546D7D4007C4147 /* MainScreen.storyboard */; };
+		506123522546D85D007C4147 /* MainScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 506123512546D85D007C4147 /* MainScreenViewController.swift */; };
+		50F9BD312557376B0081E876 /* FromSelectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50F9BD302557376A0081E876 /* FromSelectionView.swift */; };
+		50F9BD35255737890081E876 /* ToSelectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50F9BD34255737890081E876 /* ToSelectionView.swift */; };
+		50F9BD3B25573BE60081E876 /* KeyboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50F9BD3A25573BE60081E876 /* KeyboardView.swift */; };
+		50F9BD3F255758C90081E876 /* CategoriesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50F9BD3E255758C90081E876 /* CategoriesViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		501270582556C580006F3E08 /* GroupSelectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupSelectionView.swift; sourceTree = "<group>"; };
+		5018909125499C4000BBD0EA /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
 		506123362546D765007C4147 /* Сonverter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Сonverter.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		506123392546D765007C4147 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5061233B2546D765007C4147 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +34,12 @@
 		506123422546D76D007C4147 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		506123452546D76D007C4147 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		506123472546D76D007C4147 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5061234E2546D7D4007C4147 /* MainScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = MainScreen.storyboard; sourceTree = "<group>"; };
+		506123512546D85D007C4147 /* MainScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainScreenViewController.swift; sourceTree = "<group>"; };
+		50F9BD302557376A0081E876 /* FromSelectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FromSelectionView.swift; sourceTree = "<group>"; };
+		50F9BD34255737890081E876 /* ToSelectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToSelectionView.swift; sourceTree = "<group>"; };
+		50F9BD3A25573BE60081E876 /* KeyboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardView.swift; sourceTree = "<group>"; };
+		50F9BD3E255758C90081E876 /* CategoriesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoriesViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,6 +53,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		501270532556C0C9006F3E08 /* SettingsScreen */ = {
+			isa = PBXGroup;
+			children = (
+				5018909125499C4000BBD0EA /* SettingsViewController.swift */,
+			);
+			path = SettingsScreen;
+			sourceTree = "<group>";
+		};
 		5061232D2546D765007C4147 = {
 			isa = PBXGroup;
 			children = (
@@ -63,8 +87,40 @@
 				506123422546D76D007C4147 /* Assets.xcassets */,
 				506123442546D76D007C4147 /* LaunchScreen.storyboard */,
 				506123472546D76D007C4147 /* Info.plist */,
+				5061234E2546D7D4007C4147 /* MainScreen.storyboard */,
+				50F9BD3D255758440081E876 /* CategoriesScreen */,
+				501270532556C0C9006F3E08 /* SettingsScreen */,
+				506123542546D871007C4147 /* MainScreen */,
 			);
 			path = "Сonverter";
+			sourceTree = "<group>";
+		};
+		506123542546D871007C4147 /* MainScreen */ = {
+			isa = PBXGroup;
+			children = (
+				506123512546D85D007C4147 /* MainScreenViewController.swift */,
+				50F9BD38255737BA0081E876 /* MainScreenViews */,
+			);
+			path = MainScreen;
+			sourceTree = "<group>";
+		};
+		50F9BD38255737BA0081E876 /* MainScreenViews */ = {
+			isa = PBXGroup;
+			children = (
+				501270582556C580006F3E08 /* GroupSelectionView.swift */,
+				50F9BD302557376A0081E876 /* FromSelectionView.swift */,
+				50F9BD34255737890081E876 /* ToSelectionView.swift */,
+				50F9BD3A25573BE60081E876 /* KeyboardView.swift */,
+			);
+			path = MainScreenViews;
+			sourceTree = "<group>";
+		};
+		50F9BD3D255758440081E876 /* CategoriesScreen */ = {
+			isa = PBXGroup;
+			children = (
+				50F9BD3E255758C90081E876 /* CategoriesViewController.swift */,
+			);
+			path = CategoriesScreen;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,6 +181,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				506123462546D76D007C4147 /* LaunchScreen.storyboard in Resources */,
+				5061234F2546D7D4007C4147 /* MainScreen.storyboard in Resources */,
 				506123432546D76D007C4147 /* Assets.xcassets in Resources */,
 				506123412546D766007C4147 /* Main.storyboard in Resources */,
 			);
@@ -138,7 +195,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				5061233E2546D766007C4147 /* ViewController.swift in Sources */,
+				501270592556C580006F3E08 /* GroupSelectionView.swift in Sources */,
+				506123522546D85D007C4147 /* MainScreenViewController.swift in Sources */,
+				50F9BD3B25573BE60081E876 /* KeyboardView.swift in Sources */,
+				50F9BD3F255758C90081E876 /* CategoriesViewController.swift in Sources */,
+				50F9BD312557376B0081E876 /* FromSelectionView.swift in Sources */,
+				50F9BD35255737890081E876 /* ToSelectionView.swift in Sources */,
 				5061233A2546D765007C4147 /* AppDelegate.swift in Sources */,
+				5018909225499C4000BBD0EA /* SettingsViewController.swift in Sources */,
 				5061233C2546D765007C4147 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -296,7 +360,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.NikitinEgor.-onverter";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -315,7 +379,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.NikitinEgor.-onverter";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
